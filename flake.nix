@@ -12,6 +12,8 @@
         pkgs = import nixpkgs { inherit system; };
       in
       {
+        packages.default = pkgs.zensical;
+
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.zensical
