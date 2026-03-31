@@ -21,11 +21,9 @@ If you want to run this locally or contribute a fix:
    git clone git@github.com:risolij/Documentation.git
    ```
    
-   2. Install dependencies:
+   2. Install docker:
    
-   ``` bash
-   curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s install
-   ```
+   [Docker Get Started](https://www.docker.com/get-started/)
    
    3. Navigate to Project
    
@@ -33,9 +31,9 @@ If you want to run this locally or contribute a fix:
    cd Documentation
    ```
 
-   4. Serve 
+   4. Start Container
    ``` bash
-   zensical serve
+   docker compose up
    ```
    
    
