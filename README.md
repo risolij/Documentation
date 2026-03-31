@@ -11,32 +11,6 @@ This site is built to be a fast, searchable, and minimalist space for my persona
 ## 📂 What’s Inside?
 TBD
 
-
-## 🛠️ Local Development
-If you want to run this locally or contribute a fix:
-
-   1. Clone the repo:
-   
-   ``` bash
-   git clone git@github.com:risolij/Documentation.git
-   ```
-   
-   2. Install docker:
-   
-   [Docker Get Started](https://www.docker.com/get-started/)
-   
-   3. Navigate to Project
-   
-   ``` bash
-   cd Documentation
-   ```
-
-   4. Start Container
-   ``` bash
-   docker compose up
-   ```
-   
-   
 ## 🧠 Philosophy
 I follow the "Digital Garden" approach:
 
